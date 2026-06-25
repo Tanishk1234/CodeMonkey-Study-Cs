@@ -5,23 +5,23 @@ namespace CodeMonkey_Study
     internal class Program
 
         
-        //Question 1 
+        //Question 1(Basics - Variables & Functions)
         
         //Write a C# program that creates a method named MultiplyNumbers. The method should return the multiplication of two numbers entered by the user.
 
-        //Question 2 
+        //Question 2(Basics - Variables & Functions)
 
         //Write a C# program that creates a method named IsAdult. Read the user's age from the keyboard and display whether the user is an adult.
 
-        //Question 3
+        //Question 3(Basics - Variables & Functions)
 
         //Write a C# program that creates a method named FindLargest. Read two numbers from the keyboard and display the largest number.
 
-        //Question 4
+        //Question 4(Basics - Variables & Functions)
 
         //Write a C# program that creates a method named IsEven. Read a number from the keyboard and display whether the number is even or odd.
 
-        //Question 5
+        //Question 5(Basics - Variables & Functions)
 
         //Write a C# program that creates a method named CalculateGrade. Read a student's marks from the keyboard and display the grade according to the following:
 
@@ -29,6 +29,15 @@ namespace CodeMonkey_Study
         //75–89 → B
         //50–74 → C
         //Below 50 → Fail
+
+        //Bonus Question 6(Basics - Variables & Functions)
+
+        //Write a method named FindSmallest that returns the smaller of two numbers.
+
+        //Bonus Question 7(Basics - Variables & Functions)
+
+        //Write a method named IsPositive that returns whether a number is positive or negative.
+
 
 
         
@@ -210,6 +219,63 @@ namespace CodeMonkey_Study
             }
 
         }
+        */
+        #endregion
+
+        #region Question 6 FindSmallest
+
+        /*
+
+        static void Main(string[] args)
+        {
+            int result = FindSmallest(10, 20);
+            Console.WriteLine($"Smallest Number Was {result}");
+        }
+
+        // Write your method here
+        static int FindSmallest(int x, int y)
+        {
+            if (x < y)
+            {
+                return x;
+            }
+            else
+            {
+                return y;
+            }
+        }
+
+        */
+        #endregion
+
+        #region Question 7 IsPositive
+
+        /*
+
+        static void Main(string[] args)
+        {
+            // Read one number from the keyboard
+
+            // Call the method
+
+            bool result = IsPositive(Convert.ToInt32(Console.ReadLine()));
+            // Print the returned value
+            Console.WriteLine(result);
+        }
+
+        // Write your method here
+        static bool IsPositive(int number)
+        {
+            if(number > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         */
         #endregion
     }
