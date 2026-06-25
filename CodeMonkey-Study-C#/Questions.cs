@@ -3,6 +3,35 @@ using System.Numerics;
 namespace CodeMonkey_Study
 {
     internal class Program
+
+        
+        //Question 1 
+        
+        //Write a C# program that creates a method named MultiplyNumbers. The method should return the multiplication of two numbers entered by the user.
+
+        //Question 2 
+
+        //Write a C# program that creates a method named IsAdult. Read the user's age from the keyboard and display whether the user is an adult.
+
+        //Question 3
+
+        //Write a C# program that creates a method named FindLargest. Read two numbers from the keyboard and display the largest number.
+
+        //Question 4
+
+        //Write a C# program that creates a method named IsEven. Read a number from the keyboard and display whether the number is even or odd.
+
+        //Question 5
+
+        //Write a C# program that creates a method named CalculateGrade. Read a student's marks from the keyboard and display the grade according to the following:
+
+        //90 or above → A
+        //75–89 → B
+        //50–74 → C
+        //Below 50 → Fail
+
+
+        
     {
         #region Question 1 MultiplyNumbers
         //Create a method named MultiplyNumbers.
