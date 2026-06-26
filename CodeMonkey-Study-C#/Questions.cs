@@ -4,41 +4,44 @@ namespace CodeMonkey_Study
 {
     internal class Program
 
-        
         //Question 1(Basics - Variables & Functions)
-        
         //Write a C# program that creates a method named MultiplyNumbers. The method should return the multiplication of two numbers entered by the user.
 
         //Question 2(Basics - Variables & Functions)
-
         //Write a C# program that creates a method named IsAdult. Read the user's age from the keyboard and display whether the user is an adult.
 
         //Question 3(Basics - Variables & Functions)
-
         //Write a C# program that creates a method named FindLargest. Read two numbers from the keyboard and display the largest number.
 
         //Question 4(Basics - Variables & Functions)
-
         //Write a C# program that creates a method named IsEven. Read a number from the keyboard and display whether the number is even or odd.
 
         //Question 5(Basics - Variables & Functions)
-
         //Write a C# program that creates a method named CalculateGrade. Read a student's marks from the keyboard and display the grade according to the following:
-
         //90 or above → A
         //75–89 → B
         //50–74 → C
         //Below 50 → Fail
 
         //Bonus Question 6(Basics - Variables & Functions)
-
         //Write a method named FindSmallest that returns the smaller of two numbers.
 
         //Bonus Question 7(Basics - Variables & Functions)
-
         //Write a method named IsPositive that returns whether a number is positive or negative.
 
+        //Bonus Question 8(Basics - Variables & Functions)
+        //Create a method named SquareNumber that returns the square of a number.
 
+        //Question 9(Basics - Array & Loop's)
+        //Read 5 numbers into an array and print all the numbers using a for loop.
+
+        //Question 10(Basics - Array & Loop's)
+        //Question 9(Basics - Array & Loop's)
+        //Question 9(Basics - Array & Loop's)
+        //Question 9(Basics - Array & Loop's)
+        //Question 9(Basics - Array & Loop's)
+        //Question 9(Basics - Array & Loop's)
+        //Question 9(Basics - Array & Loop's)
 
         
     {
@@ -278,5 +281,51 @@ namespace CodeMonkey_Study
 
         */
         #endregion
+        
+        #region Question 8 SquareNumber
+        /*
+            
+            static void Main(string[] args)
+            {
+                int result = SquareNumber(5);   
+            }
+    
+            static int SquareNumber(int number)
+            {
+                return number * number;
+            }
+        */
+        #endregion
+      
+            #region Question 9 - ReadNumbers
+        /*
+            static void Main(string[] args)
+            {
+                int[] readNum = {5 , -5 , 7 , 6 , 8 };
+    
+                for (int i = 0; i < readNum.Length; i++)
+                {
+                    Console.WriteLine(readNum[i]);
+                    //Dont remember to add [i] in last 
+                }
+            }
+        */
+        #endregion
+        /*
+        
+        */
+
+        /*
+        
+        */
+
+        /*
+        
+        */
+
+        /*
+        
+        */
+        
     }
 }
